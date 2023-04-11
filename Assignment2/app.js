@@ -76,8 +76,8 @@
 // *****************QUESTION 6********************
 
 // let object = {
-//     myName : "fatima",
-//     age : 17,
+//     myName : "faizan",
+//     age : 18,
 //     no : "031320"
 // }
 // function objSaving(key, value){
