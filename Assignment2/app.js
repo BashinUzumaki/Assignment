@@ -90,9 +90,9 @@
 // *****************QUESTION 7********************
 
 // let objectStored = {
-//     myName : "fatima",
-//     age : 17,
-//     no : "031320"
+//     myName : "faizan",
+//     age : 18,
+//     no : "0341830"
 // }
 // function localStorage1(key) {
    
