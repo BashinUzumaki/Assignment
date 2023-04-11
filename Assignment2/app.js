@@ -1,11 +1,11 @@
 // ****************QUESTION 1********************
 
-// function firstFunction(a) {
+// function FirstFunction(a) {
 //     return function secondFunction (b) {
 //         console.log(a + b)
 //     }
 // }
-// let answer1 = firstFunction(5);
+// let answer1 = FirstFunction(5);
 // let answer2 = answer1(5);
 
 // *****************QUESTION 2********************
