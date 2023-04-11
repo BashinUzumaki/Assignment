@@ -70,7 +70,7 @@
 // function addColor(reference, color){
 //     reference.style.backgroundColor = color;
 // }  
-// let call = document.querySelector("#head1");
+// let call = document.querySelector("#mainhead");
 // addColor(call, "blue");
 
 // *****************QUESTION 6********************
