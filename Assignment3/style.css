@@ -1,4 +1,3 @@
-
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 28px;
@@ -18,15 +17,16 @@ h4{
 .fourthHead{
     padding-left: 170px;
 }
-.filtered{
-    padding-left: 550px !important;
-}
 button{
     padding: 10px;
     border-radius: 50px;
     margin-left: 590px;
     box-shadow: 5px 8px 15px gray;
 }
+.filtered{
+    padding-left: 550px !important;
+}
+
 button:hover{
     color: white;
     background-color: black;
@@ -37,3 +37,4 @@ select{
     border-radius: 50px;
     background-color: rgba(128, 128, 128, 0.505);
 }
+
