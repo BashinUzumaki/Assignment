@@ -6,7 +6,7 @@ var filterBtn = document.getElementsByClassName("filterBtn");
 var filteredMoviesDiv = document.getElementsByClassName("filteredMovies");
 
 // Fetch the movies data from the movies.json file
-fetch("./movies.json")
+fetch("movies.json")
   .then(response => response.json())
   .then(data => {
     var movies = data.movies;
