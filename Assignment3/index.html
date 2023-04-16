@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
    <h1 class="form">MOVIE RECOMMENDATION FORM </h1>
-      <!-- ***********FORM***************  -->
+      <!-- ***********Form***************  -->
 
 <form>
     <h4>GENRE:</h4>
     <select class="genre">
         <option value="">SELECT GENRE</option>
+        <option value="mystery">Mystery</option>
+        <option value="history">History</option>
+        <option value="war">War</option>
+        <option value="western">Western</option>
         <option value="romance">Romance</option>
         <option value="drama">Drama</option>
         <option value="action">Action</option>
@@ -28,10 +32,7 @@
         <option value="comedy">Comedy</option>
         <option value="crime">Crime</option>
         <option value="music">Music</option>
-        <option value="mystery">Mystery</option>
-        <option value="history">History</option>
-        <option value="war">War</option>
-        <option value="western">Western</option>
+       
     </select>
     <h4 class="secHead">YEAR:</h4>
     <select class="year">
@@ -113,15 +114,15 @@
     <select class="language">
         <option value="">SELECT LANGUAGE</option>
         <option value="english">English</option>
-        <option value="hindi">Hindi</option>
-        <option value="spanish">Spanish</option>
-        <option value="french">French</option>
-        <option value="german">German</option>
         <option value="chinese">Chinese</option>
         <option value="japanese">Japanese</option>
         <option value="korean">Korean</option>
         <option value="mandarin">Mandarin</option>
         <option value="italian">Italian</option>
+        <option value="hindi">Hindi</option>
+        <option value="spanish">Spanish</option>
+        <option value="french">French</option>
+        <option value="german">German</option>
     </select>
     <h4 class="fourthHead">RATING:</h4>
     <select class="rating">
@@ -139,7 +140,7 @@
       <button type="button" class="filterBtn" onclick="filterMovies()">Filter Movies</button>
     </form>
     <h1 class="filtered">Filtered Movies</h1>
-    <div class="filteredMovies"></div>
     <script src="./app.js"></script>
+    <div class="filteredMovies"></div>
 </body>
 </html>
